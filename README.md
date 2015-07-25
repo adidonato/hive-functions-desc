@@ -1,10 +1,12 @@
-# Get All Apache Hive Function Description
+# Get All Apache Hive Functions Description
 
-Run these scripts to get all Apache Hive functions described into a text file
+Run these scripts to get all Apache Hive/Beeline functions described into a text file instead of manually running `describe function $function` for each one.
 
 * Hive Version requires no edit.
-* Beeline version requires jdbc connection string to be inserted in the first line of `get_beeline_func_description.sh` 
-e.g.  
+* Beeline version requires jdbc connection string to be inserted in the first line of `get_beeline_func_description.sh`
+
+Returns e.g.
+
 `function_name
 avg(x) - Returns the mean of a set of numbers`
 
